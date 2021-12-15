@@ -49,38 +49,20 @@ Based on various meteorological surveys and people's styles, the service provide
 
 ## Conclusions
 
-<!--
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
--->
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+From the model we can conclude that following variables are significant in predicting the bike demands:
 
+- atemp - Actual temperature is a good predictor for the bike demand with 0.57 coefficient
+- yr - Has coefficient of 0.24, demand in 2019 was more than 2018
+- Weathersit - Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds: Has negative coefficient showing, that the demand is low in this season
 
 ## Technologies Used
 
-<!--
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
--->
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-<!--
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
--->
+- numpy - 1.20.3
+- pandas - 1.3.4
+- seaborn - 0.11.2
+- sklearn - 1.0.1
+- statsmodel - 0.12.2
+- scipy - 1.7.1
 
 ## Contact
-Created by vivekparadkar - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by Vivek Paradkar - feel free to contact me!
